@@ -15,6 +15,8 @@ import RootLayout from "./layout/RootLayout";
 import Contact from "./contact/contact";
 import ContactInfo from "./contact/contactinfo";
 import ContactForm from "./contact/contactform";
+import Job from "./job/job";
+import { jobsloader } from "./job/jobloader";
 export default function App() {
     // const router = createBrowserRouter(
     //     createRoutesFromElements(
