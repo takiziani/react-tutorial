@@ -1,3 +1,15 @@
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .card {
     border: 1px solid #ea0707;
     border-radius: 10px;
@@ -13,4 +25,29 @@
     max-width: 60%;
     height: auto;
     border-radius: 50%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+}
+
+header ul {
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    /* color: black; */
+}
+
+.active {
+    color: red;
 }

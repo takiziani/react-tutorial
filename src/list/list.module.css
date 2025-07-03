@@ -1,0 +1,17 @@
+.titel {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: aquamarine;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 1rem;
+    background-color: #c91010;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}

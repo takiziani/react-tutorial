@@ -1,0 +1,41 @@
+.continer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    row-gap: 5px;
+    column-gap: 2px;
+}
+
+.counter {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.increse {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.reset {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.decrese {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.increse,
+.decrese,
+.reset {
+    background-color: aqua;
+    border-radius: 20px;
+    color: rgb(76, 0, 0);
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 2px solid rgb(23, 205, 105);
+    cursor: pointer;
+}
